@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.teamMatch-bg-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.latest-match-heading {
+  color: white;
+  font-family: 'Bree Serif';
+  text-align: left;
+  width: 100%;
+}
+
+.team-banner {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.match-cards-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .teamMatch-bg-container {
+    padding: 20px;
+  }
+
+  .latest-match-heading {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}

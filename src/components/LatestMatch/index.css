@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.latest-card-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.venue-result {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 18px;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.competig-team-heading {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 30px;
+}
+
+.date {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}
+
+.questin-type {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 22px;
+  margin: 5px;
+  font-weight: 400;
+}
+
+.compete-logo {
+  width: 250px;
+}
+
+.last-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 400px;
+}
+
+.answer-type {
+  font-size: 18px;
+  color: white;
+  font-family: 'Bree Serif';
+  margin: 10px;
+  font-weight: 400;
+}
+
+hr {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-card-bg-container {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .compete-logo {
+    width: 80px;
+  }
+  .first-container {
+    width: 250px;
+  }
+  .last-container {
+    align-items: flex-start;
+  }
+  .competig-team-heading {
+    font-size: 25px;
+  }
+  .date {
+    font-size: 20px;
+    margin: 0px;
+  }
+  .venue-result {
+    font-size: 18px;
+    margin: 15px 0px;
+  }
+  .questin-type {
+    margin: 10px 0px;
+  }
+  .answer-type {
+    margin: 10px 0px;
+  }
+  hr {
+    display: block;
+    border-bottom: 1px solid #475569;
+    width: 100%;
+  }
+}

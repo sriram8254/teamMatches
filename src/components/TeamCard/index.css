@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.team-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.img-css {
+  width: 100px;
+}
+
+.team-heading {
+  color: white;
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-family: 500;
+  font-size: 30px;
+  width: 280px;
+}
+
+.team-item-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .team-item-container {
+    width: 180px;
+    height: 130px;
+    padding: 10px;
+    margin: 10px 0px;
+  }
+
+  .img-css {
+    width: 50px;
+  }
+
+  .team-heading {
+    font-size: 19px;
+  }
+}

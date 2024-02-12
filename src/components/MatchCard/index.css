@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.match-result-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 550px;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px 0px;
+}
+
+.compete-img {
+  width: 180px;
+  height: 200px;
+}
+
+.result-heading {
+  color: white;
+  font-family: 'Bree Serif';
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  width: 250px;
+}
+
+.match-result-desc {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.match-result-desc2 {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+}
+
+.green-color {
+  color: #18ed66;
+}
+
+.red-color {
+  color: #e31a1a;
+}
+
+@media screen and (max-width: 767px) {
+  .match-result-bg-container {
+    width: 170px;
+    padding: 20px;
+    height: 400px;
+    margin: 10px 0px;
+  }
+  .compete-img {
+    width: 100px;
+    height: 100px;
+  }
+  .result-heading {
+    font-size: 18px;
+    width: 150px;
+  }
+  .match-result-desc {
+    font-size: 16px;
+    width: 150px;
+  }
+  .match-result-desc2 {
+    font-size: 25px;
+  }
+}
